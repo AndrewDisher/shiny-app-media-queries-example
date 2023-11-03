@@ -1,0 +1,54 @@
+// --------------------------------------- //
+// --- Grid layout for boxes in main.R --- //
+// --------------------------------------- //
+.app-body {
+  display: grid;
+  padding: 0 1em;
+  grid-template-areas:
+    "a"
+    "b" 
+    "c" 
+    "d";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  
+  @include mediaFrom($breakLg) {
+    grid-template-areas: 
+      "a b"
+      "c d";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+// ----------------------------- //
+// --- Box Classes in main.R --- //
+// ----------------------------- //
+.box-a {
+  @include card;
+  grid-area: a;
+}
+
+.box-b {
+  @include card;
+  grid-area: b;
+}
+
+.box-c {
+  @include card;
+  grid-area: c;
+}
+
+.box-d {
+  @include card;
+  grid-area: d;
+}
+
+// ------------------------------------------------- //
+// --- Custom-text class for spans, within boxes --- //
+// ------------------------------------------------- //
+.custom-text-class {
+  @include mediaFrom($breakLg) {
+    font-size: 30px;
+  }
+}

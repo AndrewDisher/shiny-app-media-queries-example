@@ -1,0 +1,26 @@
+{
+    "id": "2F7CD26E",
+    "path": "~/Documents/Career/R/shiny-examples/media-query-example-app/dependencies.R",
+    "project_path": "dependencies.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1699031416319.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "3,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1699033211,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1699033211956,
+    "read_only": false,
+    "read_only_alternatives": []
+}

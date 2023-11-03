@@ -1,0 +1,6 @@
+// --- Breakpoints --- //
+$breakXs: 0px;
+$breakSm: 480px;
+$breakMd: 720px;
+$breakLg: 960px;
+$breakXl: 1200px;

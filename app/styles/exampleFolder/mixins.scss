@@ -1,0 +1,27 @@
+// ---------------------------------- //
+// --- Function for Media Queries --- //
+// ---------------------------------- //
+
+// This function was created by Appsilon for the Enterprise dashboard (https://connect.appsilon.com/shiny-enterprise-demo/)
+@mixin mediaFrom($breakpoint) {
+  @if $breakpoint {
+    @media only screen and (min-width: $breakpoint) {
+      @content;
+    }
+  }
+}
+
+// ------------------ //
+// --- Card mixin --- //
+// ------------------ //
+@mixin card {
+  border: 1px solid red;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  @include mediaFrom($breakLg) {
+    border: 5px dashed blue;
+  }
+}
